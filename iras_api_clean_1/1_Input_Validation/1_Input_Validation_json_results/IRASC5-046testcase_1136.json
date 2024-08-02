@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "e91ac685-752f-48c4-a3b3-b7ea4b899832",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-73704",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-046",
+    "errors": [
+        {
+            "id": "IRASC5-046",
+            "description": "[IRASC5-046]-Each GST Breakdown (IBG-23) MUST have a GST category rate (IBT-119)."
+        }
+    ],
+    "code": 400
+}

@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "6976b2a4-26fc-408e-bef7-ebff832c555b",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-74192",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-008",
+    "errors": [
+        {
+            "id": "IRASC5-008",
+            "description": "[IRASC5-008]-An Invoice MUST have a UUID value (BT-SG-003)."
+        }
+    ],
+    "code": 400
+}

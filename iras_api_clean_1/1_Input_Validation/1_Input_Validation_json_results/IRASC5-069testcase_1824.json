@@ -1,0 +1,15 @@
+{
+    "message": "Error found while validating XML schema",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "0b787fd2-2599-494c-8d90-e96cb30a7d5e",
+    "progress": "Rejected",
+    "errorCode": "XSD_SCHEMA_ERROR",
+    "errors": [
+        {
+            "id": "XSD_SCHEMA_ERROR",
+            "description": "Unable to render XML object at Line 525, Position 2 : The element 'Price' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2' has invalid child element 'BaseQuantity' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'. List of possible elements expected before this element: 'PriceAmount' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'."
+        }
+    ],
+    "code": 400
+}

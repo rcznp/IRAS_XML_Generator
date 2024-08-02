@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "4d8e4ff7-8c5c-4c5e-b730-7fe7c7224819",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-100988",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-100",
+    "errors": [
+        {
+            "id": "IRASC5-100",
+            "description": "[IRASC5-100]-The Total amount excluding GST in SGD, if provided, MUST be numeric and have no more than 2 decimals."
+        }
+    ],
+    "code": 400
+}

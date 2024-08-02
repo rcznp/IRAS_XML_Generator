@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "755ef133-8440-4688-8d56-e31209bbebbf",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-74474",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-006",
+    "errors": [
+        {
+            "id": "IRASC5-006",
+            "description": "[IRASC5-006]-An Invoice MUST have a valid Business process type (IBT-023)."
+        }
+    ],
+    "code": 400
+}

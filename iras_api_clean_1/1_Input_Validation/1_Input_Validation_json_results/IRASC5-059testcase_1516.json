@@ -1,0 +1,15 @@
+{
+    "message": "Error found while validating XML schema",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "0aa423ec-4f46-432d-992f-77dc1fde2382",
+    "progress": "Rejected",
+    "errorCode": "XSD_SCHEMA_ERROR",
+    "errors": [
+        {
+            "id": "XSD_SCHEMA_ERROR",
+            "description": "Unable to render XML object at Line 290, Position 4 : The element 'CreditNoteLine' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2' has invalid child element 'Note' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'. List of possible elements expected before this element: 'ID' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'."
+        }
+    ],
+    "code": 400
+}

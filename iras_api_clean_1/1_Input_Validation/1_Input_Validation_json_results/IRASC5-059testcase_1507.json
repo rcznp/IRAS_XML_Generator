@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "4eafc3ae-78e6-4517-9bac-8194dac95488",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-74360",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-059",
+    "errors": [
+        {
+            "id": "IRASC5-059",
+            "description": "[IRASC5-059]-Each Invoice Line (IBG-25) MUST have an Invoice line identifier (IBT-126)."
+        }
+    ],
+    "code": 400
+}

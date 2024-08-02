@@ -1,0 +1,15 @@
+{
+    "message": "Error found while validating XML schema",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "b6643046-6510-490d-998b-b04ee410edba",
+    "progress": "Rejected",
+    "errorCode": "XSD_SCHEMA_ERROR",
+    "errors": [
+        {
+            "id": "XSD_SCHEMA_ERROR",
+            "description": "Unable to render XML object at Line 51, Position 2 : The 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2:IssueDate' element is invalid - The value '' is invalid according to its datatype 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2:IssueDateType' - The string '' is not a valid Date value."
+        }
+    ],
+    "code": 400
+}

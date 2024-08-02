@@ -1,0 +1,22 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "1bb376a8-766d-4a8b-b04a-c8835971d0cb",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-74010",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-010",
+    "errors": [
+        {
+            "id": "IRASC5-010",
+            "description": "[IRASC5-010]-An Invoice MUST have an Invoice type code (IBT-003)."
+        },
+        {
+            "id": "IRASC5-011",
+            "description": "[IRASC5-011]-The Invoice type code (IBT-003) MUST be coded using valid code values."
+        }
+    ],
+    "code": 400
+}

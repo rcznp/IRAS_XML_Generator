@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "80b33bfb-e9df-4157-8800-c990f133a810",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-73428",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-021",
+    "errors": [
+        {
+            "id": "IRASC5-021",
+            "description": "[IRASC5-021]-The Seller post code (IBT-038) MUST be provided."
+        }
+    ],
+    "code": 400
+}

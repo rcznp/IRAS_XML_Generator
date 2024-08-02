@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "31d1a80f-3787-4427-8c10-5355e46a3f54",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-74244",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-047",
+    "errors": [
+        {
+            "id": "IRASC5-047",
+            "description": "[IRASC5-047]-Each GST Breakdown (IBG-23) MUST have a GST category tax scheme identifier (IBT-118-1) with value 'GST'."
+        }
+    ],
+    "code": 400
+}

@@ -1,0 +1,15 @@
+{
+    "message": "Error found while validating XML schema",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "fa354afd-68d8-4465-8c1f-4b39a2ecfab8",
+    "progress": "Rejected",
+    "errorCode": "XSD_SCHEMA_ERROR",
+    "errors": [
+        {
+            "id": "XSD_SCHEMA_ERROR",
+            "description": "Unable to render XML object at Line 14, Position 14 : The element 'DocumentIdentification' in namespace 'http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader' has invalid child element 'Type' in namespace 'http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader'. List of possible elements expected before this element: 'InstanceIdentifier' in namespace 'http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader'."
+        }
+    ],
+    "code": 400
+}

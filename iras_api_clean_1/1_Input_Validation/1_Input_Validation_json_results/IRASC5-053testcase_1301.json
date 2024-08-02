@@ -1,0 +1,12 @@
+{
+    "message": "Acknowledged.",
+    "success": true,
+    "version": "1.0",
+    "correlationId": "84e86e91-f1e8-4b77-97ae-d7c8a5bb42f2",
+    "acknowledgementId": "240802-84e86e91-f1e8-4b77-97ae-d7c8a5bb42f2-s001",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-73993",
+    "received": 1,
+    "progress": "ProcessingQueue",
+    "code": 200
+}

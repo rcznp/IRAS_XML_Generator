@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "a94dd92c-5863-4e53-a4ca-1f43931c31b9",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-72983",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-065",
+    "errors": [
+        {
+            "id": "IRASC5-065",
+            "description": "[IRASC5-065]-The Invoiced item GST category code (IBT-151) MUST be provided for each Line GST Information (IBG-30)."
+        }
+    ],
+    "code": 400
+}

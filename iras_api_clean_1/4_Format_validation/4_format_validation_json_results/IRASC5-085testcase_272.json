@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "778fee79-e1b1-42c6-989b-0f447c55e089",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-101362",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-085",
+    "errors": [
+        {
+            "id": "IRASC5-085",
+            "description": "[IRASC5-085]-The Invoice total amount without GST (IBT-109) MUST have no more than 2 decimals."
+        }
+    ],
+    "code": 400
+}

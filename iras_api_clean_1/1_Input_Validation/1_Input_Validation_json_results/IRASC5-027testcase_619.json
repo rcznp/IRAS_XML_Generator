@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "16e422c7-e84b-47ea-93d7-3d0494fb932c",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-74467",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-027",
+    "errors": [
+        {
+            "id": "IRASC5-027",
+            "description": "[IRASC5-027]-The Buyer electronic address (IBT-049) MUST be provided."
+        }
+    ],
+    "code": 400
+}

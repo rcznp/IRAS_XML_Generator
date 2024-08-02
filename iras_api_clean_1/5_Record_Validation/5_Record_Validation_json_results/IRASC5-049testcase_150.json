@@ -1,0 +1,22 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "04ad994d-ebce-4137-af94-e597265c1e60",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-71926",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-049",
+    "errors": [
+        {
+            "id": "IRASC5-049",
+            "description": "[IRASC5-049]-The GST category codes (IBT-118) on an Invoice MUST be valid values for the Business process type (IBT-023)."
+        },
+        {
+            "id": "IRASC5-045",
+            "description": "[IRASC5-045]-At least one GST category code (IBT-118) within the GST Breakdown (IBG-23) MUST be within the scope of the GST InvoiceNow Requirement."
+        }
+    ],
+    "code": 400
+}

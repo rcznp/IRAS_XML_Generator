@@ -1,0 +1,15 @@
+{
+    "message": "Error found while validating XML schema",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "5f8ceedb-4917-4774-bfb0-c5dbcfaa0920",
+    "progress": "Rejected",
+    "errorCode": "XSD_SCHEMA_ERROR",
+    "errors": [
+        {
+            "id": "XSD_SCHEMA_ERROR",
+            "description": "Unable to render XML object at Line 343, Position 5 : The 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2:PriceAmount' element is invalid - The value '' is invalid according to its datatype 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2:PriceAmountType' - The string '' is not a valid Decimal value."
+        }
+    ],
+    "code": 400
+}

@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "e560a23d-f252-4097-ad49-1ae8ec312fa7",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-35058",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-075",
+    "errors": [
+        {
+            "id": "IRASC5-075",
+            "description": "[IRASC5-075]-All currencyID attributes must have the same value as the Invoice currency code (IBT-005), except for amounts expected to be in accounting currency (IBT-006)."
+        }
+    ],
+    "code": 400
+}

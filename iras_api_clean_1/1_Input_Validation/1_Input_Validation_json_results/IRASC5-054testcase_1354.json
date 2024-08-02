@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "484455bd-5e9a-4f94-9e0a-611299711cbe",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-72688",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-055",
+    "errors": [
+        {
+            "id": "IRASC5-055",
+            "description": "[IRASC5-055]-The Invoice total amount with GST (IBT-112) MUST not be negative."
+        }
+    ],
+    "code": 400
+}

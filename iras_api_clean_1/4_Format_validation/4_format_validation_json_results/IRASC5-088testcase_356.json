@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "e226ac69-fb17-40e8-8b6f-282404188666",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-100980",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-088",
+    "errors": [
+        {
+            "id": "IRASC5-088",
+            "description": "[IRASC5-088]-The Sum of charges on document level (IBT-108), if provided, MUST have no more than 2 decimals."
+        }
+    ],
+    "code": 400
+}

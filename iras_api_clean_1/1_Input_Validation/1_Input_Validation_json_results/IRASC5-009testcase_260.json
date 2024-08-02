@@ -1,0 +1,15 @@
+{
+    "message": "Error found while validating XML schema",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "9aaa190c-5bab-43ea-bec8-57c66e5c440f",
+    "progress": "Rejected",
+    "errorCode": "XSD_SCHEMA_ERROR",
+    "errors": [
+        {
+            "id": "XSD_SCHEMA_ERROR",
+            "description": "Unable to render XML object at Line 52, Position 2 : The element 'Invoice' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:Invoice-2' has invalid child element 'DueDate' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'. List of possible elements expected before this element: 'IssueDate' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'."
+        }
+    ],
+    "code": 400
+}

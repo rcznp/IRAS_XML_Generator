@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "31c9c895-2a5c-452a-b5a3-e1fdfdfb3a48",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-100952",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-093",
+    "errors": [
+        {
+            "id": "IRASC5-093",
+            "description": "[IRASC5-093]-The Line level allowance amount (IBT-136), if provided, MUST have no more than 2 decimals."
+        }
+    ],
+    "code": 400
+}

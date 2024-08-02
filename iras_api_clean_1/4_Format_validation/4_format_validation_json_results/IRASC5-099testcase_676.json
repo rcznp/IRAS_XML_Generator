@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "cf807235-ce98-42de-9a1e-194471473515",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-100749",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-099",
+    "errors": [
+        {
+            "id": "IRASC5-099",
+            "description": "[IRASC5-099]-The Item gross price (IBT-148), if provided, MUST have no more than 2 decimals."
+        }
+    ],
+    "code": 400
+}

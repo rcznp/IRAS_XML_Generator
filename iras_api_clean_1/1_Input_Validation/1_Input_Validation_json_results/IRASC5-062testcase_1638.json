@@ -1,0 +1,15 @@
+{
+    "message": "Error found while validating XML schema",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "e6c5d84d-1d1f-43fd-b6a0-90a837dbd097",
+    "progress": "Rejected",
+    "errorCode": "XSD_SCHEMA_ERROR",
+    "errors": [
+        {
+            "id": "XSD_SCHEMA_ERROR",
+            "description": "Unable to render XML object at Line 294, Position 49 : The 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2:LineExtensionAmount' element is invalid - The value 'NA' is invalid according to its datatype 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2:LineExtensionAmountType' - The string 'NA' is not a valid Decimal value."
+        }
+    ],
+    "code": 400
+}

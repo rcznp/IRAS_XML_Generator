@@ -1,0 +1,15 @@
+{
+    "message": "Error found while validating XML schema",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "939ecc9a-e83f-4131-9875-6dc6ae25ed89",
+    "progress": "Rejected",
+    "errorCode": "XSD_SCHEMA_ERROR",
+    "errors": [
+        {
+            "id": "XSD_SCHEMA_ERROR",
+            "description": "Unable to render XML object at Line 311, Position 5 : The element 'AllowanceCharge' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2' has invalid child element 'BaseAmount' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'. List of possible elements expected before this element: 'PrepaidIndicator, SequenceNumeric, Amount' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'."
+        }
+    ],
+    "code": 400
+}

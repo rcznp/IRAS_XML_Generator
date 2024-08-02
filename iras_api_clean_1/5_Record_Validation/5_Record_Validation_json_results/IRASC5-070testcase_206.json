@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "2c5d9e96-a259-4a9e-b041-07c18f7464b7",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-72076",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-070",
+    "errors": [
+        {
+            "id": "IRASC5-070",
+            "description": "[IRASC5-070]-The Item net price (IBT-146) MUST NOT be negative."
+        }
+    ],
+    "code": 400
+}

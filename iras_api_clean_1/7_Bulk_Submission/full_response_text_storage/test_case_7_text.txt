@@ -1,0 +1,14 @@
+Test Case ID: 7
+Response: {
+  "message": "Your submission has been successfully received. Please wait at least 15 minutes and query against the status API URL with your Sender ID and Transmission ID to retrieve the status of the submission.",
+  "success": true,
+  "version": "1.0",
+  "correlationId": "a930bb5c-c413-4438-ac04-d54a1fff56a2",
+  "senderId": "198888888A",
+  "transmissionId": "111AUG-11aa-11aa-1a10-74507",
+  "received": 5,
+  "progress": "Received",
+  "code": 200
+}
+
+

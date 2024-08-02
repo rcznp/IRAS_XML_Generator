@@ -1,0 +1,22 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "49fd2c2a-01d0-456f-8d78-1da6ca715c5e",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-74327",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-041",
+    "errors": [
+        {
+            "id": "IRASC5-041",
+            "description": "[IRASC5-041]-The currency code MUST be provided for the GST category taxable amount (IBT-116)."
+        },
+        {
+            "id": "IRASC5-075",
+            "description": "[IRASC5-075]-All currencyID attributes must have the same value as the Invoice currency code (IBT-005), except for amounts expected to be in accounting currency (IBT-006)."
+        }
+    ],
+    "code": 400
+}

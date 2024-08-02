@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "2ff1c43c-eb6f-48b7-a13a-f7e8b7bce3e6",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-100616",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-078",
+    "errors": [
+        {
+            "id": "IRASC5-078",
+            "description": "[IRASC5-078]-The Document level allowance base amount (IBT-093), if provided, MUST have no more than 2 decimals."
+        }
+    ],
+    "code": 400
+}

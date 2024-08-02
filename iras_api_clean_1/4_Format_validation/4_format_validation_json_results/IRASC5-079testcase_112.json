@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "5db815ca-2cf4-45bb-a7c0-52e8ec1fe170",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-100927",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-079",
+    "errors": [
+        {
+            "id": "IRASC5-079",
+            "description": "[IRASC5-079]-The Document level charge base amount (IBT-100) MUST have no more than 2 decimals."
+        }
+    ],
+    "code": 400
+}

@@ -1,0 +1,15 @@
+{
+    "message": "Error found while validating XML schema",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "04072369-813c-4130-9161-264a2f8d346f",
+    "progress": "Rejected",
+    "errorCode": "XSD_SCHEMA_ERROR",
+    "errors": [
+        {
+            "id": "XSD_SCHEMA_ERROR",
+            "description": "Unable to render XML object at Line 286, Position 43 : The 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2:PayableAmount' element is invalid - The value 'NA' is invalid according to its datatype 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2:PayableAmountType' - The string 'NA' is not a valid Decimal value."
+        }
+    ],
+    "code": 400
+}

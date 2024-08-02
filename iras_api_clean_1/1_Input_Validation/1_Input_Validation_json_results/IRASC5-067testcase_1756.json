@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "53124d77-c290-4429-a0bc-24e3c3389998",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-73013",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-067",
+    "errors": [
+        {
+            "id": "IRASC5-067",
+            "description": "[IRASC5-067]-The Invoiced item GST rate (IBT-152) MUST be provided for each Line GST Information (IBG-30)."
+        }
+    ],
+    "code": 400
+}

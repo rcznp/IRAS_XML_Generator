@@ -1,0 +1,21 @@
+Test Case ID: 5
+Response: {
+  "message": "Error found while processing XML content",
+  "success": false,
+  "version": "1.0",
+  "correlationId": "3ab8d6d6-991a-4a12-a4aa-7d8cce3a9fdd",
+  "senderId": "198888888A",
+  "transmissionId": "111AUG-11aa-11aa-1a10-74502",
+  "received": 11,
+  "progress": "Rejected",
+  "errorCode": "PAYLOAD_EXCEED",
+  "errors": [
+    {
+      "id": "PAYLOAD_EXCEED",
+      "description": "Only 10 business message nodes are allowed for this API"
+    }
+  ],
+  "code": 400
+}
+
+

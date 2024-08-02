@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "944cae65-9f7a-4908-99f2-cf34226f2017",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-101336",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-087",
+    "errors": [
+        {
+            "id": "IRASC5-087",
+            "description": "[IRASC5-087]-The Sum of allowances on document level (IBT-107), if provided, MUST have no more than 2 decimals."
+        }
+    ],
+    "code": 400
+}

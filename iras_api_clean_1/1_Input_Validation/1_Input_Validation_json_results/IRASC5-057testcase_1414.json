@@ -1,0 +1,15 @@
+{
+    "message": "Error found while validating XML schema",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "285f8038-23ae-4aed-8d24-a8b460204b5e",
+    "progress": "Rejected",
+    "errorCode": "XSD_SCHEMA_ERROR",
+    "errors": [
+        {
+            "id": "XSD_SCHEMA_ERROR",
+            "description": "Unable to render XML object at Line 383, Position 3 : The element 'LegalMonetaryTotal' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2' has incomplete content. List of possible elements expected: 'PayableAmount' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'."
+        }
+    ],
+    "code": 400
+}

@@ -1,0 +1,22 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "1e977dce-0e30-4fa4-9c22-e2f101c779e8",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-72673",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-071",
+    "errors": [
+        {
+            "id": "IRASC5-071",
+            "description": "[IRASC5-071]-The currency code MUST be provided for each Item net price (IBT-146)."
+        },
+        {
+            "id": "IRASC5-075",
+            "description": "[IRASC5-075]-All currencyID attributes must have the same value as the Invoice currency code (IBT-005), except for amounts expected to be in accounting currency (IBT-006)."
+        }
+    ],
+    "code": 400
+}

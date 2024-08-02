@@ -1,0 +1,18 @@
+{
+    "message": "Error while adding submission to transmission records",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "8f291914-f93d-44c0-a2a7-aa7e7293c13c",
+    "senderId": "",
+    "transmissionId": "111AUG-11aa-11aa-1a10-74227",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-001",
+    "errors": [
+        {
+            "id": "IRASC5-001",
+            "description": "[IRASC5-001]-The SBDH envelope MUST have a Sender identifier."
+        }
+    ],
+    "code": 400
+}

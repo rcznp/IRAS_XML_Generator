@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "d660aee4-a72c-473e-a560-af89d7d51e3b",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-101335",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-091",
+    "errors": [
+        {
+            "id": "IRASC5-091",
+            "description": "[IRASC5-091]-The Amount due for payment (IBT-115) MUST have no more than 2 decimals."
+        }
+    ],
+    "code": 400
+}

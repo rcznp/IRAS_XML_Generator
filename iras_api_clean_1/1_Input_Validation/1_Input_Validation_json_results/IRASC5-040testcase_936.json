@@ -1,0 +1,22 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "8a4a844d-0852-4ad6-8fa9-c5f5a18cd9d9",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-74198",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-040",
+    "errors": [
+        {
+            "id": "IRASC5-040",
+            "description": "[IRASC5-040]-Each GST Breakdown (IBG-23) shall have a GST category taxable amount (IBT-116)."
+        },
+        {
+            "id": "IRASC5-041",
+            "description": "[IRASC5-041]-The currency code MUST be provided for the GST category taxable amount (IBT-116)."
+        }
+    ],
+    "code": 400
+}

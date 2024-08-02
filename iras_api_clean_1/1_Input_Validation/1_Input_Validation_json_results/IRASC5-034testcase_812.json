@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "2ad9f867-86a4-46aa-a4d9-1f006ba0bf38",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-73583",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-034",
+    "errors": [
+        {
+            "id": "IRASC5-034",
+            "description": "[IRASC5-034]-The Buyer legal registration identifier (IBT-047) MUST be provided."
+        }
+    ],
+    "code": 400
+}

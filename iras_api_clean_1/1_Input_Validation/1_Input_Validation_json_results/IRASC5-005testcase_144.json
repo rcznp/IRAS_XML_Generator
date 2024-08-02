@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "6c5d1fb8-3c66-4e23-923c-e17ec1f623a9",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-72840",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-005",
+    "errors": [
+        {
+            "id": "IRASC5-005",
+            "description": "[IRASC5-005]-An Invoice MUST have a valid Specification identifier (IBT-024)."
+        }
+    ],
+    "code": 400
+}

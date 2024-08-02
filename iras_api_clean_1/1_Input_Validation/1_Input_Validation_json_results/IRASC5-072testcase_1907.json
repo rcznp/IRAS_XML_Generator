@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "2cc4c4f9-d381-40ae-8d65-249d1f95dec6",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-73584",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-072",
+    "errors": [
+        {
+            "id": "IRASC5-072",
+            "description": "[IRASC5-072]-An Invoice MUST have an Invoice note (IBT-022), if it is a Credit Note."
+        }
+    ],
+    "code": 400
+}

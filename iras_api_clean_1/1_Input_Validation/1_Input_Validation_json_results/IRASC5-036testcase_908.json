@@ -1,0 +1,15 @@
+{
+    "message": "Error found while validating XML schema",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "059dca3b-b6b3-49e6-8afc-233fc9356509",
+    "progress": "Rejected",
+    "errorCode": "XSD_SCHEMA_ERROR",
+    "errors": [
+        {
+            "id": "XSD_SCHEMA_ERROR",
+            "description": "Unable to render XML object at Line 265, Position 4 : The required attribute 'currencyID' is missing."
+        }
+    ],
+    "code": 400
+}

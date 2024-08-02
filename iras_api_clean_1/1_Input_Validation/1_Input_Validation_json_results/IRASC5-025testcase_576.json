@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "691387b6-6127-40a9-b57e-c3135bdb0288",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-72652",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-025",
+    "errors": [
+        {
+            "id": "IRASC5-025",
+            "description": "[IRASC5-025]-An Invoice MUST contain the Seller name (IBT-027)."
+        }
+    ],
+    "code": 400
+}

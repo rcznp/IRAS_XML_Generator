@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "94e26ec7-ab86-480d-bf9d-0ef2d49573cd",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-100934",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-082",
+    "errors": [
+        {
+            "id": "IRASC5-082",
+            "description": "[IRASC5-082]-The GST category taxable amount (IBT-116) MUST have no more than 2 decimals."
+        }
+    ],
+    "code": 400
+}

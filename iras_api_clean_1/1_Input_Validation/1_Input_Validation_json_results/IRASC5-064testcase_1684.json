@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "555c6a54-6d1d-4105-beae-16f910fe19bd",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-73830",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-064",
+    "errors": [
+        {
+            "id": "IRASC5-064",
+            "description": "[IRASC5-064]-Each Invoice Line (IBG-25) MUST contain an Item name (IBT-153)."
+        }
+    ],
+    "code": 400
+}

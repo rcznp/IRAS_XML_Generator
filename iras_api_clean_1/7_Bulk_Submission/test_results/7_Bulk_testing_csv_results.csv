@@ -1,0 +1,10 @@
+Test Case ID,Test Case Description,Expected Result,Expected Result Response (for 400 response),Actual Result,Actual Result Response (for 400 response),Sample,Actual Response Pass/Fail,Acutal Status Pass/Fail,Both status and result Pass/Fail
+1.0,Multiple invoices in one single submission (<=10),200,,200.0,,21,,Pass,
+2.0,Multiple credit notes in one single submission (<=10),200,,200.0,,22,,Pass,
+3.0,Multiple invoices and credit notes in one single submission,400,,400.0,Found business message node not using declared document identification type 'Invoice',23,,Pass,
+4.0,Multiple invoices in one single submission (>10),400,,400.0,Only 10 business message nodes are allowed for this API,24,,Pass,
+5.0,Multiple credit notes in one single submission (>10),400,,400.0,Only 10 business message nodes are allowed for this API,25,,Pass,
+6.0,PEPPOL invoice(s) within the body,200,,200.0,,26,,Pass,
+7.0,Number of document UUIDs does not match number of documents,200,,200,,27,,Pass,
+8.0,XML is not well formed (one single invoice container),400,,400.0,"Unable to render XML object at Line 172, Position 6 : The element 'Invoice' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:Invoice-2' has invalid child element 'CustomizationID' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'. List of possible elements expected before this element: 'InvoiceLine' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'.",28,,Pass,
+9.0," Two invoices fail validation rule: does not contain mandatory fields (invoice type code, document currency code)",200,,200.0,,29,,Pass,

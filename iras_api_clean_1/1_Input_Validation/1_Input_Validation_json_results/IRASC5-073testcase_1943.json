@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "5a486cea-df65-434e-8428-2ae6acf6a35c",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-73520",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-073",
+    "errors": [
+        {
+            "id": "IRASC5-073",
+            "description": "[IRASC5-073]-An Invoice MUST have a Preceding Invoice number (IBT-025), if it is a Credit Note."
+        }
+    ],
+    "code": 400
+}

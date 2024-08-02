@@ -1,0 +1,15 @@
+{
+    "message": "Error found while validating XML schema",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "93707a78-44d4-4b34-8d06-a27bbf654a16",
+    "progress": "Rejected",
+    "errorCode": "XSD_SCHEMA_ERROR",
+    "errors": [
+        {
+            "id": "XSD_SCHEMA_ERROR",
+            "description": "Unable to render XML object at Line 9, Position 15 : The element 'Receiver' in namespace 'http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader' has incomplete content. List of possible elements expected: 'Identifier' in namespace 'http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader'."
+        }
+    ],
+    "code": 400
+}

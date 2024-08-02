@@ -1,0 +1,22 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "cf63fcdd-4cf0-40f3-9777-fc2f02be1a9e",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-15440",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-037",
+    "errors": [
+        {
+            "id": "IRASC5-037",
+            "description": "[IRASC5-037]-An Invoice MUST have an Invoice total GST amount in accounting currency (IBT-111), if the Invoice currency code (IBT-005) is not 'SGD'."
+        },
+        {
+            "id": "IRASC5-038",
+            "description": "[IRASC5-038]-The currency code for the Invoice total GST amount in accounting currency (IBT-111) MUST be 'SGD', if the Invoice currency code (IBT-005) is not 'SGD'."
+        }
+    ],
+    "code": 400
+}

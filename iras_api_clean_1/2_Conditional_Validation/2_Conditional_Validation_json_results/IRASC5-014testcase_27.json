@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "bf6beb22-e6e4-43bf-ba12-d79d5e251757",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-72349",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-014",
+    "errors": [
+        {
+            "id": "IRASC5-014",
+            "description": "[IRASC5-014]-An Invoice MUST have an Accounting currency code (IBT-006) with value 'SGD', if the Invoice currency code (IBT-005) is not 'SGD'. Otherwise, the Accounting currency code (IBT-006) MUST NOT be provided."
+        }
+    ],
+    "code": 400
+}

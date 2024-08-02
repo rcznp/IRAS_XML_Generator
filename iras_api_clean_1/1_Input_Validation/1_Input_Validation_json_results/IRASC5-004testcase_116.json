@@ -1,0 +1,15 @@
+{
+    "message": "Error found while validating XML schema",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "12c92dec-b30e-4061-9956-6a7d5c15e490",
+    "progress": "Rejected",
+    "errorCode": "XSD_SCHEMA_ERROR",
+    "errors": [
+        {
+            "id": "XSD_SCHEMA_ERROR",
+            "description": "Unable to render XML object at Line 16, Position 15 : The element 'DocumentIdentification' in namespace 'http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader' has incomplete content. List of possible elements expected: 'MultipleType, CreationDateAndTime' in namespace 'http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader'."
+        }
+    ],
+    "code": 400
+}

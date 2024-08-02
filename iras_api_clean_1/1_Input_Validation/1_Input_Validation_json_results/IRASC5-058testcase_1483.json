@@ -1,0 +1,22 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "4e241ba7-f6da-4946-b5f6-d85979fefe40",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-74405",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-058",
+    "errors": [
+        {
+            "id": "IRASC5-058",
+            "description": "[IRASC5-058]-The currency code MUST be provided for the Amount due for payment (IBT-115)."
+        },
+        {
+            "id": "IRASC5-075",
+            "description": "[IRASC5-075]-All currencyID attributes must have the same value as the Invoice currency code (IBT-005), except for amounts expected to be in accounting currency (IBT-006)."
+        }
+    ],
+    "code": 400
+}

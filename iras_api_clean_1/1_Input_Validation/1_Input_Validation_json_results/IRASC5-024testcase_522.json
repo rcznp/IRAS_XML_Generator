@@ -1,0 +1,22 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "14f7235f-a211-4a8e-a5c0-41a730c67f0e",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-73573",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-023",
+    "errors": [
+        {
+            "id": "IRASC5-023",
+            "description": "[IRASC5-023]-The Seller GST identifier (IBT-031) MUST be provided."
+        },
+        {
+            "id": "IRASC5-024",
+            "description": "[IRASC5-024]-The tax scheme identifier (IBT-031-1) of the Seller GST identifier (IBT-031) MUST be 'GST'."
+        }
+    ],
+    "code": 400
+}

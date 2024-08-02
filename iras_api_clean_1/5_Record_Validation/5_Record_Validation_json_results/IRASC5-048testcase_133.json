@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "d59b2a50-ae03-40a3-9903-f73d302c4653",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-72127",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-048",
+    "errors": [
+        {
+            "id": "IRASC5-048",
+            "description": "[IRASC5-048]-All distinct values of the Invoiced item GST category codes (IBT-151) MUST tally with the values of the GST category codes (IBT-118)."
+        }
+    ],
+    "code": 400
+}

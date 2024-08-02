@@ -1,0 +1,22 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "2645b99b-e456-4117-9c35-526f3ce7baa7",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-72513",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-015",
+    "errors": [
+        {
+            "id": "IRASC5-015",
+            "description": "[IRASC5-015]-If the Invoice currency code (IBT-005) is not 'SGD', the Invoice MUST have exactly one Additional Supporting Document as follows: Document type code (BT-SG-001) MUST be 'sgdtotal-excl-gst', Supporting document description MUST be provided, Invoiced object identifier MUST be 'SGD'."
+        },
+        {
+            "id": "IRASC5-016",
+            "description": "[IRASC5-016]-If the Invoice currency code (IBT-005) is not 'SGD', the Invoice MUST have exactly one Additional Supporting Document as follows: Document type code (BT-SG-002) MUST be 'sgdtotal-incl-gst', Supporting document description MUST be provided, Invoiced object identifier MUST be 'SGD'."
+        }
+    ],
+    "code": 400
+}

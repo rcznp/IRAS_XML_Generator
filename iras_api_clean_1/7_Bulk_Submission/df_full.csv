@@ -1,0 +1,10 @@
+Test Case ID,Test Case Description,Expected Result,Expected Result Response (for 400 response),Actual Result,Actual Result Response (for 400 response),Sample
+1.0,Multiple invoices in one single submission (<=10),200,,,,21
+2.0,Multiple credit notes in one single submission (<=10),200,,,,22
+3.0,Multiple invoices and credit notes in one single submission,400,,,,23
+4.0,Multiple invoices in one single submission (>10),400,,,,24
+5.0,Multiple credit notes in one single submission (>10),400,,,,25
+6.0,PEPPOL invoice(s) within the body,200,,,,26
+7.0,Number of document UUIDs does not match number of documents,200,,,,27
+8.0,XML is not well formed (one single invoice container),400,,,,28
+9.0," Two invoices fail validation rule: does not contain mandatory fields (invoice type code, document currency code)",200,,,,29

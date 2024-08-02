@@ -1,0 +1,12 @@
+{
+    "message": "Acknowledged.",
+    "success": true,
+    "version": "1.0",
+    "correlationId": "0aea43cd-61ce-4015-b2ab-9cfce3664837",
+    "acknowledgementId": "240802-0aea43cd-61ce-4015-b2ab-9cfce3664837-s001",
+    "senderId": "1756",
+    "transmissionId": "NA",
+    "received": 1,
+    "progress": "ProcessingQueue",
+    "code": 200
+}

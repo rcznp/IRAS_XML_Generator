@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "c3454c82-c4ac-412d-9867-7d7f7fca28d6",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-72891",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-022",
+    "errors": [
+        {
+            "id": "IRASC5-022",
+            "description": "[IRASC5-022]-The Seller postal address (IBG-05) MUST contain a Seller country code (IBT-040)."
+        }
+    ],
+    "code": 400
+}

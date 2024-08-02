@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "f72945e6-9222-43b0-ae91-df81e7d106a5",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-101350",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-096",
+    "errors": [
+        {
+            "id": "IRASC5-096",
+            "description": "[IRASC5-096]-The Line level charge base amount (IBT-142), if provided, MUST have no more than 2 decimals."
+        }
+    ],
+    "code": 400
+}

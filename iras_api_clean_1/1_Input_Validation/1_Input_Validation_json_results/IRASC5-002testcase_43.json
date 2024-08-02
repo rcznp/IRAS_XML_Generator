@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "94faf58d-4d20-431d-9fe1-61b220092633",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-73327",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-002",
+    "errors": [
+        {
+            "id": "IRASC5-002",
+            "description": "[IRASC5-002]-The SBDH envelope MUST have a Receiver identifier."
+        }
+    ],
+    "code": 400
+}

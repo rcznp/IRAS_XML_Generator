@@ -1,0 +1,15 @@
+{
+    "message": "Error found while validating XML schema",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "dfb918e2-bdbe-4810-afdc-f661e17481ba",
+    "progress": "Rejected",
+    "errorCode": "XSD_SCHEMA_ERROR",
+    "errors": [
+        {
+            "id": "XSD_SCHEMA_ERROR",
+            "description": "Unable to render XML object at Line 271, Position 22 : The 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2:Percent' element is invalid - The value 'NA' is invalid according to its datatype 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2:PercentType' - The string 'NA' is not a valid Decimal value."
+        }
+    ],
+    "code": 400
+}

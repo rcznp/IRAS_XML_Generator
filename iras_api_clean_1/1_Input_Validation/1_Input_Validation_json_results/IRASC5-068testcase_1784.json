@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "b85f441d-b651-4bf2-b5ee-cb91ad64cff3",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-73122",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-068",
+    "errors": [
+        {
+            "id": "IRASC5-068",
+            "description": "[IRASC5-068]-The tax scheme identifier (IBT-167) MUST be provided for each Line GST Information (IBG-30)."
+        }
+    ],
+    "code": 400
+}

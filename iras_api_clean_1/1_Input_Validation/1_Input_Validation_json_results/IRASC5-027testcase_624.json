@@ -1,0 +1,26 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "f3b58c1f-a4b8-4869-90a2-7ebcf89aece4",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-73701",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-019",
+    "errors": [
+        {
+            "id": "IRASC5-019",
+            "description": "[IRASC5-019]-The Scheme identifiers (IBT-034-1), (IBT-049-1) of the Electronic addresses (IBT-034), (IBT-049) MUST belong to the CEF EAS code list."
+        },
+        {
+            "id": "IRASC5-027",
+            "description": "[IRASC5-027]-The Buyer electronic address (IBT-049) MUST be provided."
+        },
+        {
+            "id": "IRASC5-028",
+            "description": "[IRASC5-028]-The Buyer electronic address (IBT-049) MUST have a Scheme identifier (IBT-049-1)."
+        }
+    ],
+    "code": 400
+}

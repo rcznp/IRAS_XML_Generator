@@ -1,0 +1,15 @@
+{
+    "message": "Error found while validating XML schema",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "62b0dc8e-d3e0-4ead-9a75-1224efb93cbf",
+    "progress": "Rejected",
+    "errorCode": "XSD_SCHEMA_ERROR",
+    "errors": [
+        {
+            "id": "XSD_SCHEMA_ERROR",
+            "description": "Unable to render XML object at Line 332, Position 21 : The 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2:Percent' element is invalid - The value '?' is invalid according to its datatype 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2:PercentType' - The string '?' is not a valid Decimal value."
+        }
+    ],
+    "code": 400
+}

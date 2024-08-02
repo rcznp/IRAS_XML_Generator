@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "fd352e3b-5765-4229-98ef-963bc07a9ada",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-69282",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-045",
+    "errors": [
+        {
+            "id": "IRASC5-045",
+            "description": "[IRASC5-045]-At least one GST category code (IBT-118) within the GST Breakdown (IBG-23) MUST be within the scope of the GST InvoiceNow Requirement."
+        }
+    ],
+    "code": 400
+}

@@ -1,0 +1,26 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "4d81563c-4010-4374-870e-ca9aaa3fe717",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-70212",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-006",
+    "errors": [
+        {
+            "id": "IRASC5-006",
+            "description": "[IRASC5-006]-An Invoice MUST have a valid Business process type (IBT-023)."
+        },
+        {
+            "id": "IRASC5-048",
+            "description": "[IRASC5-048]-All distinct values of the Invoiced item GST category codes (IBT-151) MUST tally with the values of the GST category codes (IBT-118)."
+        },
+        {
+            "id": "IRASC5-049",
+            "description": "[IRASC5-049]-The GST category codes (IBT-118) on an Invoice MUST be valid values for the Business process type (IBT-023)."
+        }
+    ],
+    "code": 400
+}

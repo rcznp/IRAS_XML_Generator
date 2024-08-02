@@ -1,0 +1,22 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "90d40904-6a5e-44ba-bccc-0e978ec760fd",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-71733",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-066",
+    "errors": [
+        {
+            "id": "IRASC5-066",
+            "description": "[IRASC5-066]-The Invoiced item GST category code (IBT-151) on an Invoice MUST be coded using valid code values."
+        },
+        {
+            "id": "IRASC5-045",
+            "description": "[IRASC5-045]-At least one GST category code (IBT-118) within the GST Breakdown (IBG-23) MUST be within the scope of the GST InvoiceNow Requirement."
+        }
+    ],
+    "code": 400
+}

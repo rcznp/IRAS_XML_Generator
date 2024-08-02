@@ -1,0 +1,26 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "91ae266c-5e9c-4fa7-9650-b7d67208ef1a",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-73453",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-054",
+    "errors": [
+        {
+            "id": "IRASC5-054",
+            "description": "[IRASC5-054]-An Invoice MUST have the Invoice total amount with GST (IBT-112)."
+        },
+        {
+            "id": "IRASC5-055",
+            "description": "[IRASC5-055]-The Invoice total amount with GST (IBT-112) MUST not be negative."
+        },
+        {
+            "id": "IRASC5-056",
+            "description": "[IRASC5-056]-The currency code MUST be provided for the Invoice total amount with GST (IBT-112)."
+        }
+    ],
+    "code": 400
+}

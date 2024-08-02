@@ -1,0 +1,22 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "e992d04e-d77e-4eca-846f-a74c5b27bb67",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-74310",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-060",
+    "errors": [
+        {
+            "id": "IRASC5-060",
+            "description": "[IRASC5-060]-Each Invoice Line (IBG-25) MUST have an Invoiced quantity (IBT-129)."
+        },
+        {
+            "id": "IRASC5-061",
+            "description": "[IRASC5-061]-An Invoice Line (IBG-25) MUST have an Invoiced quantity unit of measure code (IBT-130)."
+        }
+    ],
+    "code": 400
+}

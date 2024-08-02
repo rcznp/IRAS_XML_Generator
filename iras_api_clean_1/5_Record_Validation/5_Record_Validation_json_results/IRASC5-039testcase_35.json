@@ -1,0 +1,18 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "a63bb9a9-e4f8-4cf9-bee6-f13af2247917",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-71838",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-039",
+    "errors": [
+        {
+            "id": "IRASC5-039",
+            "description": "[IRASC5-039]-The Invoice total GST amount (IBT-110) and Invoice total GST amount in accounting currency (IBT-111) MUST have the same operational sign."
+        }
+    ],
+    "code": 400
+}

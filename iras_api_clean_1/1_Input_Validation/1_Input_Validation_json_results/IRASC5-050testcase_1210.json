@@ -1,0 +1,22 @@
+{
+    "message": "Failed at least one business validation rules",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "53fe1e18-5fa1-4c17-8251-b7166a3889b4",
+    "senderId": "EYSIT1011",
+    "transmissionId": "111AUG-11aa-11aa-1a10-73292",
+    "received": 1,
+    "progress": "Rejected",
+    "errorCode": "IRASC5-050",
+    "errors": [
+        {
+            "id": "IRASC5-050",
+            "description": "[IRASC5-050]-An Invoice MUST have the Sum of Invoice line net amount (IBT-106)."
+        },
+        {
+            "id": "IRASC5-051",
+            "description": "[IRASC5-051]-The currency code MUST be provided for the Sum of Invoice line net amount (IBT-106)."
+        }
+    ],
+    "code": 400
+}

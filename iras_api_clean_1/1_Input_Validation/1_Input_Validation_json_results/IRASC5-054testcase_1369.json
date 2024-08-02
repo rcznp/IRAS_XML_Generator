@@ -1,0 +1,15 @@
+{
+    "message": "Error found while validating XML schema",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "f4227375-7162-4f44-ae17-da04e5640146",
+    "progress": "Rejected",
+    "errorCode": "XSD_SCHEMA_ERROR",
+    "errors": [
+        {
+            "id": "XSD_SCHEMA_ERROR",
+            "description": "Unable to render XML object at Line 281, Position 4 : The 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2:TaxInclusiveAmount' element is invalid - The value '' is invalid according to its datatype 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2:TaxInclusiveAmountType' - The string '' is not a valid Decimal value."
+        }
+    ],
+    "code": 400
+}
