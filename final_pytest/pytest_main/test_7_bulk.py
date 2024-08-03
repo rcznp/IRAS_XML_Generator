@@ -34,7 +34,7 @@ if os.path.exists(filename_for_csv_with_results_full_path):
     os.remove(filename_for_csv_with_results_full_path)
     print(f"File {filename_for_csv_with_results_full_path} removed %%%.")
 
-json_filepath_folder = os.path.join(work_directory, 'input_val_json_results')
+json_filepath_folder = os.path.join(work_directory, f'{work_directory_folder_name}_json_results')
 
 xml_files = load_xml_files(xml_file_path)
 

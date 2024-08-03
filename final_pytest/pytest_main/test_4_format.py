@@ -41,3 +41,4 @@ def test_post_xml_to_api(xml_file):
         logger1,
         logger2,
     )
+
