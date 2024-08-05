@@ -2,7 +2,7 @@ import os
 import pytest
 from config import base_path_concat, log_dir, unique_identifier_for_test_results
 from helpers.helpers import setup_loggers,load_xml_files, handle_test_case
-
+#test merge
 work_directory_folder_name = '1_Input_Validation'
 xml_store_folder_name = 'xml_files_for_1_Input Validation'
 test_file_name = '_input_testing_csv_results'
