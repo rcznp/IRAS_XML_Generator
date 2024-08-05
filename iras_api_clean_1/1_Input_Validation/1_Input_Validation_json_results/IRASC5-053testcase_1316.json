@@ -1,15 +1,4 @@
 {
-    "message": "Error found while validating XML schema",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "12f7d8b4-f6b2-4fb5-a20d-eb2baea94cb1",
-    "progress": "Rejected",
-    "errorCode": "XSD_SCHEMA_ERROR",
-    "errors": [
-        {
-            "id": "XSD_SCHEMA_ERROR",
-            "description": "Unable to render XML object at Line 280, Position 4 : The required attribute 'currencyID' is missing."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 7 seconds."
 }

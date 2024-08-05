@@ -1,18 +1,4 @@
 {
-    "message": "Failed at least one business validation rules",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "a86fcdb1-69f0-455d-bbf7-202d6d833a02",
-    "senderId": "EYSIT1011",
-    "transmissionId": "111AUG-11aa-11aa-1a10-73977",
-    "received": 1,
-    "progress": "Rejected",
-    "errorCode": "IRASC5-017",
-    "errors": [
-        {
-            "id": "IRASC5-017",
-            "description": "[IRASC5-017]-The Seller electronic address (IBT-049) MUST be provided."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 10 seconds."
 }

@@ -1,12 +1,18 @@
 {
-    "message": "Acknowledged.",
-    "success": true,
+    "message": "Duplicate transmission received",
+    "success": false,
     "version": "1.0",
-    "correlationId": "69513ef2-5680-428a-81a2-d10c156c028e",
-    "acknowledgementId": "240802-69513ef2-5680-428a-81a2-d10c156c028e-s001",
+    "correlationId": "2c2994c1-ee8a-4012-813a-a4e47afd71d1",
     "senderId": "1752",
     "transmissionId": "NA",
     "received": 1,
-    "progress": "ProcessingQueue",
-    "code": 200
+    "progress": "Rejected",
+    "errorCode": "DUPLICATE_RECORD",
+    "errors": [
+        {
+            "id": "DUPLICATE_RECORD",
+            "description": "The Instance identifier and Sender identifier of the SBDH envelope MUST NOT be identical to that of past submissions."
+        }
+    ],
+    "code": 400
 }

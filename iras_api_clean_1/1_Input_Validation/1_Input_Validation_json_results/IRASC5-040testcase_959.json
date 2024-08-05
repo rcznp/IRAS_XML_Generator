@@ -1,15 +1,4 @@
 {
-    "message": "Error found while validating XML schema",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "ba52030e-6a85-4c2e-adca-2f3a40fa7eb0",
-    "progress": "Rejected",
-    "errorCode": "XSD_SCHEMA_ERROR",
-    "errors": [
-        {
-            "id": "XSD_SCHEMA_ERROR",
-            "description": "Unable to render XML object at Line 267, Position 5 : The 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2:TaxableAmount' element is invalid - The value '' is invalid according to its datatype 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2:TaxableAmountType' - The string '' is not a valid Decimal value."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 14 seconds."
 }

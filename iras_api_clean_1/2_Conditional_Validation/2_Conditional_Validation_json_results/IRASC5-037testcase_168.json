@@ -1,15 +1,4 @@
 {
-    "message": "Error found while validating XML schema",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "51d7564b-1af0-43a9-a78c-71e68a86c7ef",
-    "progress": "Rejected",
-    "errorCode": "XSD_SCHEMA_ERROR",
-    "errors": [
-        {
-            "id": "XSD_SCHEMA_ERROR",
-            "description": "Unable to render XML object at Line 298, Position 4 : The element 'TaxTotal' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2' has invalid child element 'TaxSubtotal' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'. List of possible elements expected before this element: 'TaxAmount' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 1 seconds."
 }

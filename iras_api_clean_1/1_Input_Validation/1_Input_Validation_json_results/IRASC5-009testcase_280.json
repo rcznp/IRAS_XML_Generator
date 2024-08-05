@@ -1,15 +1,4 @@
 {
-    "message": "Error found while validating XML schema",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "92a88890-9cc4-4a27-9cfb-e4e9e778a91a",
-    "progress": "Rejected",
-    "errorCode": "XSD_SCHEMA_ERROR",
-    "errors": [
-        {
-            "id": "XSD_SCHEMA_ERROR",
-            "description": "Unable to render XML object at Line 54, Position 3 : The element 'CreditNote' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2' has invalid child element 'CreditNoteTypeCode' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'. List of possible elements expected before this element: 'IssueDate' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 17 seconds."
 }

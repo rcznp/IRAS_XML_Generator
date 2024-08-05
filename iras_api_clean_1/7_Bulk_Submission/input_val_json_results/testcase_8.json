@@ -1,0 +1,15 @@
+{
+    "message": "Error found while validating XML schema",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "f450751b-1bf3-4db6-b4b5-e19431aaec67",
+    "progress": "Rejected",
+    "errorCode": "XSD_SCHEMA_ERROR",
+    "errors": [
+        {
+            "id": "XSD_SCHEMA_ERROR",
+            "description": "Unable to render XML object at Line 172, Position 6 : The element 'Invoice' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:Invoice-2' has invalid child element 'CustomizationID' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'. List of possible elements expected before this element: 'InvoiceLine' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'."
+        }
+    ],
+    "code": 400
+}

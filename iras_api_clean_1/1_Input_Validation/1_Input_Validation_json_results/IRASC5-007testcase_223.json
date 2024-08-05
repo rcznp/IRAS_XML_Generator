@@ -1,18 +1,4 @@
 {
-    "message": "Failed at least one business validation rules",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "f2b48de9-90a4-4247-b08f-3dcb11df1d70",
-    "senderId": "EYSIT1011",
-    "transmissionId": "111AUG-11aa-11aa-1a10-73579",
-    "received": 1,
-    "progress": "Rejected",
-    "errorCode": "IRASC5-007",
-    "errors": [
-        {
-            "id": "IRASC5-007",
-            "description": "[IRASC5-007]-An Invoice MUST have an Invoice number (IBT-001)."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 6 seconds."
 }

@@ -11,7 +11,7 @@
         <DocumentIdentification>
             <Standard>urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2</Standard>
             <TypeVersion>2.1</TypeVersion>
-            <InstanceIdentifier>111AUG-11aa-11aa-1a10-100846</InstanceIdentifier>
+            <InstanceIdentifier>111AUG-11aa-11aa-1a10-217639</InstanceIdentifier>
             <Type>CreditNote</Type>
             <CreationDateAndTime>2024-02-02T13:37:34.744Z</CreationDateAndTime>
         </DocumentIdentification>
@@ -43,9 +43,9 @@ A valid Singapore credit note.
 
 -->
 	<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
-	<cbc:CustomizationID>urn:peppol:pint:billing-1@sg-1</cbc:CustomizationID>
+	<cbc:CustomizationID>urn:peppol:pint:billing-1@sg-1:LocalTaxInvoice:sg:1.0</cbc:CustomizationID>
 	<!-- BT-24 -->
-	<cbc:ProfileID>urn:peppol:bis:billing</cbc:ProfileID>
+	<cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
 	<!-- BT-23 -->
 	<cbc:ID>F012345</cbc:ID>
 	<!-- BT-1 -->

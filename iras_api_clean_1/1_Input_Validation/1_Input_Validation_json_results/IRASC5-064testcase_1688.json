@@ -1,18 +1,4 @@
 {
-    "message": "Failed at least one business validation rules",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "7ca842c6-57cc-4501-8cb9-5cacfe8b7bf6",
-    "senderId": "EYSIT1011",
-    "transmissionId": "111AUG-11aa-11aa-1a10-74008",
-    "received": 1,
-    "progress": "Rejected",
-    "errorCode": "IRASC5-064",
-    "errors": [
-        {
-            "id": "IRASC5-064",
-            "description": "[IRASC5-064]-Each Invoice Line (IBG-25) MUST contain an Item name (IBT-153)."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 5 seconds."
 }

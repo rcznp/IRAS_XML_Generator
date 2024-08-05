@@ -1,22 +1,12 @@
 {
-    "message": "Failed at least one business validation rules",
-    "success": false,
+    "message": "Acknowledged.",
+    "success": true,
     "version": "1.0",
-    "correlationId": "3d7e94dd-3b15-4861-b16b-a310ad272f3e",
+    "correlationId": "b585e35d-a39e-43db-add6-f964311222ea",
+    "acknowledgementId": "240803-b585e35d-a39e-43db-add6-f964311222ea-s001",
     "senderId": "EYSIT1011",
-    "transmissionId": "111AUG-11aa-11aa-1a10-101003",
+    "transmissionId": "111AUG-11aa-11aa-1a10-210971",
     "received": 1,
-    "progress": "Rejected",
-    "errorCode": "IRASC5-015",
-    "errors": [
-        {
-            "id": "IRASC5-015",
-            "description": "[IRASC5-015]-If the Invoice currency code (IBT-005) is not 'SGD', the Invoice MUST have exactly one Additional Supporting Document as follows: Document type code (BT-SG-001) MUST be 'sgdtotal-excl-gst', Supporting document description MUST be provided, Invoiced object identifier MUST be 'SGD'."
-        },
-        {
-            "id": "IRASC5-016",
-            "description": "[IRASC5-016]-If the Invoice currency code (IBT-005) is not 'SGD', the Invoice MUST have exactly one Additional Supporting Document as follows: Document type code (BT-SG-002) MUST be 'sgdtotal-incl-gst', Supporting document description MUST be provided, Invoiced object identifier MUST be 'SGD'."
-        }
-    ],
-    "code": 400
+    "progress": "ProcessingQueue",
+    "code": 200
 }

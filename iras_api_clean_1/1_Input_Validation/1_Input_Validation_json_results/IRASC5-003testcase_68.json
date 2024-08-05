@@ -1,15 +1,4 @@
 {
-    "message": "Error found while validating XML schema",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "862c4e01-627e-4d73-a882-ba3680084b4e",
-    "progress": "Rejected",
-    "errorCode": "XSD_SCHEMA_ERROR",
-    "errors": [
-        {
-            "id": "XSD_SCHEMA_ERROR",
-            "description": "Unable to render XML object at Line 14, Position 2 : The element 'DocumentIdentification' in namespace 'http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader' has invalid child element 'Type' in namespace 'http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader'. List of possible elements expected before this element: 'InstanceIdentifier' in namespace 'http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader'."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 6 seconds."
 }

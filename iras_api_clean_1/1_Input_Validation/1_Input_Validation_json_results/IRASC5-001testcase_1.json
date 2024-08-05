@@ -2,10 +2,10 @@
     "message": "Acknowledged.",
     "success": true,
     "version": "1.0",
-    "correlationId": "7a445eec-af61-4ef7-8019-e8eb945741a3",
-    "acknowledgementId": "240802-7a445eec-af61-4ef7-8019-e8eb945741a3-s001",
+    "correlationId": "f0af04d2-0a70-455a-94c8-ec12e9507495",
+    "acknowledgementId": "240803-f0af04d2-0a70-455a-94c8-ec12e9507495-s001",
     "senderId": "200012345A",
-    "transmissionId": "111AUG-11aa-11aa-1a10-74307",
+    "transmissionId": "111AUG-11aa-11aa-1a10-213966",
     "received": 1,
     "progress": "ProcessingQueue",
     "code": 200

@@ -1,22 +1,4 @@
 {
-    "message": "Failed at least one business validation rules",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "80c51b5d-730a-46b4-9f90-efe676a9748c",
-    "senderId": "EYSIT1011",
-    "transmissionId": "111AUG-11aa-11aa-1a10-73994",
-    "received": 1,
-    "progress": "Rejected",
-    "errorCode": "IRASC5-048",
-    "errors": [
-        {
-            "id": "IRASC5-048",
-            "description": "[IRASC5-048]-All distinct values of the Invoiced item GST category codes (IBT-151) MUST tally with the values of the GST category codes (IBT-118)."
-        },
-        {
-            "id": "IRASC5-066",
-            "description": "[IRASC5-066]-The Invoiced item GST category code (IBT-151) on an Invoice MUST be coded using valid code values."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 7 seconds."
 }

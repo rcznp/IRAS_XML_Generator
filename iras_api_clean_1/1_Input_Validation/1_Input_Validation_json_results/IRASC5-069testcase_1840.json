@@ -1,15 +1,4 @@
 {
-    "message": "Error found while validating XML schema",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "214701f5-48c5-48ee-880c-adbc5656aa59",
-    "progress": "Rejected",
-    "errorCode": "XSD_SCHEMA_ERROR",
-    "errors": [
-        {
-            "id": "XSD_SCHEMA_ERROR",
-            "description": "Unable to render XML object at Line 343, Position 42 : The 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2:PriceAmount' element is invalid - The value 'NA' is invalid according to its datatype 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2:PriceAmountType' - The string 'NA' is not a valid Decimal value."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 15 seconds."
 }

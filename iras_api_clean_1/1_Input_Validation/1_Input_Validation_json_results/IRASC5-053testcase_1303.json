@@ -1,22 +1,4 @@
 {
-    "message": "Failed at least one business validation rules",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "0857ac15-6583-46bc-9a5f-a20133275c35",
-    "senderId": "EYSIT1011",
-    "transmissionId": "111AUG-11aa-11aa-1a10-73587",
-    "received": 1,
-    "progress": "Rejected",
-    "errorCode": "IRASC5-053",
-    "errors": [
-        {
-            "id": "IRASC5-053",
-            "description": "[IRASC5-053]-The currency code MUST be provided for the Invoice total amount without GST (IBT-109)."
-        },
-        {
-            "id": "IRASC5-075",
-            "description": "[IRASC5-075]-All currencyID attributes must have the same value as the Invoice currency code (IBT-005), except for amounts expected to be in accounting currency (IBT-006)."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 5 seconds."
 }

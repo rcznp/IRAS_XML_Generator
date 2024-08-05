@@ -1,12 +1,4 @@
 {
-    "message": "Acknowledged.",
-    "success": true,
-    "version": "1.0",
-    "correlationId": "818b494c-bc1c-414e-9a76-30af8d4b7e1e",
-    "acknowledgementId": "240802-818b494c-bc1c-414e-9a76-30af8d4b7e1e-s001",
-    "senderId": "EYSIT1011",
-    "transmissionId": "111AUG-11aa-11aa-1a10-72710",
-    "received": 1,
-    "progress": "ProcessingQueue",
-    "code": 200
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 8 seconds."
 }

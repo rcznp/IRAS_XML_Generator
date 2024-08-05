@@ -1,0 +1,18 @@
+{
+    "message": "Duplicate transmission received",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "3ba12682-d939-424a-b8c4-ea527de09a88",
+    "senderId": "198888888A",
+    "transmissionId": "111AUG-11aa-11aa-1a10-220985",
+    "received": 10,
+    "progress": "Rejected",
+    "errorCode": "DUPLICATE_RECORD",
+    "errors": [
+        {
+            "id": "DUPLICATE_RECORD",
+            "description": "The Instance identifier and Sender identifier of the SBDH envelope MUST NOT be identical to that of past submissions."
+        }
+    ],
+    "code": 400
+}

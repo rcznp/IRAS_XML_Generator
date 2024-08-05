@@ -1,18 +1,4 @@
 {
-    "message": "Failed at least one business validation rules",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "9de19572-6ccf-42ce-980d-6c0941eba8dc",
-    "senderId": "EYSIT1011",
-    "transmissionId": "111AUG-11aa-11aa-1a10-101089",
-    "received": 1,
-    "progress": "Rejected",
-    "errorCode": "IRASC5-077",
-    "errors": [
-        {
-            "id": "IRASC5-077",
-            "description": "[IRASC5-077]-The Document level charge amount (IBT-099), if provided, MUST have no more than 2 decimals."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 1 seconds."
 }

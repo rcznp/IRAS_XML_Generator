@@ -1,14 +1,21 @@
 Test Case ID: 9
 Response: {
-  "message": "Your submission has been successfully received. Please wait at least 15 minutes and query against the status API URL with your Sender ID and Transmission ID to retrieve the status of the submission.",
-  "success": true,
+  "message": "Duplicate transmission received",
+  "success": false,
   "version": "1.0",
-  "correlationId": "6051f45b-802e-421b-aa40-8ab67746d0f7",
+  "correlationId": "75b30821-1733-4918-a5fe-de3f3e65ae10",
   "senderId": "198888888A",
-  "transmissionId": "111AUG-11aa-11aa-1a10-74503",
+  "transmissionId": "111AUG-11aa-11aa-1a10-220987",
   "received": 5,
-  "progress": "Received",
-  "code": 200
+  "progress": "Rejected",
+  "errorCode": "DUPLICATE_RECORD",
+  "errors": [
+    {
+      "id": "DUPLICATE_RECORD",
+      "description": "The Instance identifier and Sender identifier of the SBDH envelope MUST NOT be identical to that of past submissions."
+    }
+  ],
+  "code": 400
 }
 
 

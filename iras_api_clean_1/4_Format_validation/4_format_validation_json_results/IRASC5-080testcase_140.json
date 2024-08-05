@@ -1,18 +1,4 @@
 {
-    "message": "Failed at least one business validation rules",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "8ecd66d1-05b5-434f-9085-0f818863bfe7",
-    "senderId": "EYSIT1011",
-    "transmissionId": "111AUG-11aa-11aa-1a10-100741",
-    "received": 1,
-    "progress": "Rejected",
-    "errorCode": "IRASC5-080",
-    "errors": [
-        {
-            "id": "IRASC5-080",
-            "description": "[IRASC5-080]-The Invoice total GST amount (IBT-110) MUST have no more than 2 decimals."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 1 seconds."
 }

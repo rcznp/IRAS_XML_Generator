@@ -1,18 +1,4 @@
 {
-    "message": "Failed at least one business validation rules",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "3116ca35-77bf-45d2-bf10-c4bd4de2e6ef",
-    "senderId": "EYSIT1011",
-    "transmissionId": "111AUG-11aa-11aa-1a10-100884",
-    "received": 1,
-    "progress": "Rejected",
-    "errorCode": "IRASC5-076",
-    "errors": [
-        {
-            "id": "IRASC5-076",
-            "description": "[IRASC5-076]-The Document level allowance amount (IBT-092), if provided, MUST have no more than 2 decimals."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 3 seconds."
 }

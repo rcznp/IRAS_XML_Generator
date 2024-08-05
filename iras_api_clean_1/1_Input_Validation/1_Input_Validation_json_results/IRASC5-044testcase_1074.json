@@ -1,22 +1,4 @@
 {
-    "message": "Failed at least one business validation rules",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "f15e7d65-b65c-4aa3-b2cf-143deee95c72",
-    "senderId": "EYSIT1011",
-    "transmissionId": "111AUG-11aa-11aa-1a10-73738",
-    "received": 1,
-    "progress": "Rejected",
-    "errorCode": "IRASC5-048",
-    "errors": [
-        {
-            "id": "IRASC5-048",
-            "description": "[IRASC5-048]-All distinct values of the Invoiced item GST category codes (IBT-151) MUST tally with the values of the GST category codes (IBT-118)."
-        },
-        {
-            "id": "IRASC5-045",
-            "description": "[IRASC5-045]-At least one GST category code (IBT-118) within the GST Breakdown (IBG-23) MUST be within the scope of the GST InvoiceNow Requirement."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 15 seconds."
 }

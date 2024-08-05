@@ -1,6 +1,8 @@
 import pandas as pd
 import json
 import os
+
+
 #need to clear csv results if not the old results will stick to the new one
 def get_expected_json(base_df_filepath,test_case_id):
 
@@ -39,26 +41,24 @@ def save_results_to_csv(work_dir,base_df_filepath,filename_for_results,test_case
         os.makedirs(results_folder_path)
     path_results = work_dir + results_folder + filename_for_results + '.csv'
 
+
+    if not os.path.exists(path_results):
+        print('-------DOES NOT EXIST')
+        base_df_path = base_df_filepath
+        df_base = pd.read_csv(base_df_path)
+        df_base.to_csv(path_results, index=False)
+
     
 
     # base_df_path = '/Users/cheongray/iras_api_make_xml/df_full.csv'
-
-    if not os.path.exists(path_results):#if it doesnt exist,then read in the base template from df_full.csv
-        print('-------DOES NOT EXITST')
-        base_df_path = base_df_filepath
-
-        df_base = pd.read_csv(base_df_path)
-
-        df_base.to_csv(path_results,index=False)
-
-        
+    
+    
     pd.set_option('display.max_colwidth', None)
     df = pd.read_csv(path_results)
-
-    if 'Actual Response Pass/Fail' not in df.columns:
-        df['Actual Response Pass/Fail'] = ''
     if 'Acutal Status Pass/Fail' not in df.columns:
         df['Acutal Status Pass/Fail'] = ''
+    if 'Actual Response Pass/Fail' not in df.columns:
+        df['Actual Response Pass/Fail'] = ''
     if 'Both status and result Pass/Fail' not in df.columns:
         df['Both status and result Pass/Fail']=''
 
@@ -122,23 +122,25 @@ def save_results_to_csv(work_dir,base_df_filepath,filename_for_results,test_case
 
 
     actual_response_condition = (df.loc[df['Test Case ID'] == test_case_id, 'Actual Response Pass/Fail'] == 'Pass').any()
-    print('####################################')
-    print('      ')
     print(actual_response_condition)
-    print('####################################')
+   
 
     df.loc[(df['Actual Response Pass/Fail']=='Pass')&(df['Acutal Status Pass/Fail']=='Pass'), 'Both status and result Pass/Fail'] = 'Pass'
 
+    df.loc[(df['Actual Response Pass/Fail'].isna())&(df['Acutal Status Pass/Fail']=='Pass'), 'Both status and result Pass/Fail'] = 'Pass'
+
+    df.loc[(df['Actual Response Pass/Fail']=='Fail')|(df['Acutal Status Pass/Fail']=='Fail'), 'Both status and result Pass/Fail'] = 'Fail'
 
     
-    df.to_csv(path_results,index=False)
+
+    df.to_csv(path_results, index=False)
 
 
-def save_error_as_json():
-    pass
-if __name__ == '__main__':
-    expected_json , expected_status = get_expected_json(644,'1')
-    print(expected_json)  
+# def save_error_as_json():
+#     pass
+# if __name__ == '__main__':
+#     expected_json , expected_status = get_expected_json(644,'1')
+#     print(expected_json)  
 
 
 #will not match if there are multiple errors to match

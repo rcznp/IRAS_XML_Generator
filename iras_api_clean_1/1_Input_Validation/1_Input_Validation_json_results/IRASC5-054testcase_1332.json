@@ -1,15 +1,4 @@
 {
-    "message": "Error found while validating XML schema",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "5f5a26ac-e539-4ebd-ae8a-9f183b1fec10",
-    "progress": "Rejected",
-    "errorCode": "XSD_SCHEMA_ERROR",
-    "errors": [
-        {
-            "id": "XSD_SCHEMA_ERROR",
-            "description": "Unable to render XML object at Line 372, Position 46 : The 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2:TaxInclusiveAmount' element is invalid - The value 'NA' is invalid according to its datatype 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2:TaxInclusiveAmountType' - The string 'NA' is not a valid Decimal value."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 17 seconds."
 }

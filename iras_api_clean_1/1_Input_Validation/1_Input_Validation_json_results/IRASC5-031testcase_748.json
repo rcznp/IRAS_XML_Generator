@@ -1,18 +1,4 @@
 {
-    "message": "Failed at least one business validation rules",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "fd53b747-b3b4-443f-aa8d-f7c0aa13bc74",
-    "senderId": "EYSIT1011",
-    "transmissionId": "111AUG-11aa-11aa-1a10-73139",
-    "received": 1,
-    "progress": "Rejected",
-    "errorCode": "IRASC5-031",
-    "errors": [
-        {
-            "id": "IRASC5-031",
-            "description": "[IRASC5-031]-The Buyer postal address (IBG-08) MUST contain a Buyer country code (IBT-055)."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 8 seconds."
 }

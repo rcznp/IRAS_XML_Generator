@@ -3,7 +3,8 @@ import requests
 import pytest
 import json
 import logging
-
+from filelock import FileLock
+#
 def setup_loggers(log_dir):
     if not os.path.exists(log_dir):
         os.makedirs(log_dir)
@@ -80,13 +81,15 @@ def handle_test_case(xml_file, xml_file_path, base_df_filepath, json_filepath_fo
     
     
     actual_response = json.loads(response.text)
+    lock_file = f'{filename_for_csv_with_results}.lock'
+    lock = FileLock(lock_file)
     #no key errors
     if actual_response['success']:#it passed.but passed when expecting fail is still a fail,error not caught
          temp_errors = ['']
          
          actual_status = actual_response['code']
-
-         save_results_to_csv(work_directory,base_df_filepath,filename_for_csv_with_results,test_case_id,temp_errors,actual_status)
+         with lock:
+            save_results_to_csv(work_directory,base_df_filepath,filename_for_csv_with_results,test_case_id,temp_errors,actual_status)
          logger1.debug(f'API call passed for test case ID: {test_case_id} with expected status code {expected_status}\n\n')
          try:
              assert (
@@ -114,7 +117,8 @@ def handle_test_case(xml_file, xml_file_path, base_df_filepath, json_filepath_fo
         print('****+++]]]]]]]]')
         print(temp_errors)
         print('****+++]]]]]]]]')
-        save_results_to_csv(work_directory,base_df_filepath,filename_for_csv_with_results,test_case_id,temp_errors,actual_status)
+        with lock:
+            save_results_to_csv(work_directory,base_df_filepath,filename_for_csv_with_results,test_case_id,temp_errors,actual_status)
         logger1.debug(f'API call failed for test case ID: {test_case_id} with errors: {temp_errors}\n\n')
         try:
             assert (int(expected_status) == actual_status and expected_json == temp_errors_string), (
@@ -138,6 +142,10 @@ def handle_test_case_bulk(xml_file, xml_file_path, base_df_filepath, json_filepa
     headers = {'Content-Type': 'application/xml; charset=utf-8', 'User-Agent': 'IRAS_TEST_AGENT'}
 
     response = requests.post(url, data=xml_data.encode('utf-8'), headers=headers)
+    json_filename = json_filepath_folder + '/' + 'testcase_' + str(test_case_id) +'.json'
+    
+
+    save_to_json(json_filename,response.text)
 
     # Check if full_response_text_storage is a valid path
     if os.path.isdir(full_response_text_storage):
@@ -158,12 +166,14 @@ def handle_test_case_bulk(xml_file, xml_file_path, base_df_filepath, json_filepa
 
     expected_json, expected_status = get_expected_json(base_df_filepath, test_case_id)
     assert actual_status == int(expected_status)
-    
+    lock_file = f'{filename_for_csv_with_results}.lock'
+    lock = FileLock(lock_file)
     if actual_response['success']:
         temp_errors = ['']
         print('actual_status')
         print(actual_status)
-        save_results_to_csv(work_directory, base_df_filepath, filename_for_csv_with_results, test_case_id, temp_errors, actual_status)
+        with lock:
+            save_results_to_csv(work_directory, base_df_filepath, filename_for_csv_with_results, test_case_id, temp_errors, actual_status)
     elif not actual_response['success']:
         temp_errors = []
         temp_errors_string = ''
@@ -173,4 +183,5 @@ def handle_test_case_bulk(xml_file, xml_file_path, base_df_filepath, json_filepa
         print('****+++]]]]]]]]')
         print('temp_errors = >', temp_errors)
         print('****+++]]]]]]]]')
-        save_results_to_csv(work_directory, base_df_filepath, filename_for_csv_with_results, test_case_id, temp_errors, actual_status)
+        with lock:
+            save_results_to_csv(work_directory, base_df_filepath, filename_for_csv_with_results, test_case_id, temp_errors, actual_status)

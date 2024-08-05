@@ -1,18 +1,4 @@
 {
-    "message": "Failed at least one business validation rules",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "e47b85b7-3c0b-42c9-a438-4d2c0fa24e1a",
-    "senderId": "EYSIT1011",
-    "transmissionId": "111AUG-11aa-11aa-1a10-72166",
-    "received": 1,
-    "progress": "Rejected",
-    "errorCode": "IRASC5-039",
-    "errors": [
-        {
-            "id": "IRASC5-039",
-            "description": "[IRASC5-039]-The Invoice total GST amount (IBT-110) and Invoice total GST amount in accounting currency (IBT-111) MUST have the same operational sign."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 1 seconds."
 }

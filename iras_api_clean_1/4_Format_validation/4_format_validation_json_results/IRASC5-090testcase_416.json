@@ -1,18 +1,4 @@
 {
-    "message": "Failed at least one business validation rules",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "3e98b525-6059-4001-b3f4-e3072fe8eee3",
-    "senderId": "EYSIT1011",
-    "transmissionId": "111AUG-11aa-11aa-1a10-100711",
-    "received": 1,
-    "progress": "Rejected",
-    "errorCode": "IRASC5-090",
-    "errors": [
-        {
-            "id": "IRASC5-090",
-            "description": "[IRASC5-090]-The Rounding amount (IBT-114), if provided, MUST have no more than 2 decimals."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 1 seconds."
 }

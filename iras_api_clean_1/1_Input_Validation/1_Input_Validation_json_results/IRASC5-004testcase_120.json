@@ -1,15 +1,4 @@
 {
-    "message": "Error found while validating XML schema",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "532d00b3-43f3-431e-808c-a18378f028b5",
-    "progress": "Rejected",
-    "errorCode": "XSD_SCHEMA_ERROR",
-    "errors": [
-        {
-            "id": "XSD_SCHEMA_ERROR",
-            "description": "Unable to render XML object at Line 16, Position 15 : The element 'DocumentIdentification' in namespace 'http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader' has incomplete content. List of possible elements expected: 'MultipleType, CreationDateAndTime' in namespace 'http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader'."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 7 seconds."
 }

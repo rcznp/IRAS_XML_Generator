@@ -11,7 +11,7 @@
         <DocumentIdentification>
             <Standard>urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2</Standard>
             <TypeVersion>2.1</TypeVersion>
-            <InstanceIdentifier>111AUG-11aa-11aa-1a10-100723</InstanceIdentifier>
+            <InstanceIdentifier>111AUG-11aa-11aa-1a10-217516</InstanceIdentifier>
             <Type>CreditNote</Type>
             <CreationDateAndTime>2024-02-02T13:37:34.744Z</CreationDateAndTime>
         </DocumentIdentification>
@@ -43,7 +43,7 @@ A valid Singapore credit note.
 
 -->
 	<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
-	<cbc:CustomizationID>urn:cen.eu:en16931:2017#conformant#urn:fdc:peppol.eu:2017:poacc:billing:international:sg:3.0</cbc:CustomizationID>
+	<cbc:CustomizationID>urn:peppol:pint:billing-1@sg-1:LocalTaxInvoice:sg:1.0</cbc:CustomizationID>
 	<!-- BT-24 -->
 	<cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
 	<!-- BT-23 -->
@@ -306,7 +306,7 @@ A valid Singapore credit note.
 			<cbc:DocumentTypeCode>130</cbc:DocumentTypeCode> <!-- BT-128, qualifier -->
 		</cac:DocumentReference>
 		<cac:AllowanceCharge>
-			<cbc:ChargeIndicator>true</cbc:ChargeIndicator> <!-- qualifier -->
+			<cbc:ChargeIndicator>false</cbc:ChargeIndicator> <!-- qualifier -->
 			<cbc:AllowanceChargeReasonCode>100</cbc:AllowanceChargeReasonCode> <!-- BT-140, BT-145 -->
 			<cbc:AllowanceChargeReason>Line discount</cbc:AllowanceChargeReason> <!-- BT-139, BT-144 -->
 			<cbc:MultiplierFactorNumeric>5</cbc:MultiplierFactorNumeric> <!-- BT-138, BT-143 -->

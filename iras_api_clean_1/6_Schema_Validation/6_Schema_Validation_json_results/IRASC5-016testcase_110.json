@@ -1,22 +1,4 @@
 {
-    "message": "Failed at least one business validation rules",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "b1548408-bb5e-4c0d-8126-417ceccf66da",
-    "senderId": "EYSIT1011",
-    "transmissionId": "111AUG-11aa-11aa-1a10-72467",
-    "received": 1,
-    "progress": "Rejected",
-    "errorCode": "IRASC5-016",
-    "errors": [
-        {
-            "id": "IRASC5-016",
-            "description": "[IRASC5-016]-If the Invoice currency code (IBT-005) is not 'SGD', the Invoice MUST have exactly one Additional Supporting Document as follows: Document type code (BT-SG-002) MUST be 'sgdtotal-incl-gst', Supporting document description MUST be provided, Invoiced object identifier MUST be 'SGD'."
-        },
-        {
-            "id": "IRASC5-101",
-            "description": "[IRASC5-101]-The Total amount including GST in SGD, if provided, MUST be numeric and have no more than 2 decimals."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 1 seconds."
 }

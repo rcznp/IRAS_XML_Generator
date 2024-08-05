@@ -2,7 +2,7 @@
     "message": "Error found while validating XML schema",
     "success": false,
     "version": "1.0",
-    "correlationId": "06dd2695-294d-4571-9abc-cf349f4468bc",
+    "correlationId": "841cc219-da3f-4d50-9a64-f6ff7aebb283",
     "progress": "Rejected",
     "errorCode": "XSD_SCHEMA_ERROR",
     "errors": [

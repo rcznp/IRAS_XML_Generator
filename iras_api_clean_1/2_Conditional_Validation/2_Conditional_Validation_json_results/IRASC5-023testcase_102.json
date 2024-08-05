@@ -1,18 +1,4 @@
 {
-    "message": "Failed at least one business validation rules",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "7d03d5d8-cc41-48e4-84f3-afb8acb1219d",
-    "senderId": "EYSIT1011",
-    "transmissionId": "111AUG-11aa-11aa-1a10-72265",
-    "received": 1,
-    "progress": "Rejected",
-    "errorCode": "IRASC5-023",
-    "errors": [
-        {
-            "id": "IRASC5-023",
-            "description": "[IRASC5-023]-The Seller GST identifier (IBT-031) MUST be provided."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 1 seconds."
 }

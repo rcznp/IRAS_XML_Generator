@@ -1,0 +1,15 @@
+{
+    "message": "Error found while trying to parse content",
+    "success": false,
+    "version": "1.0",
+    "correlationId": "fbbd5886-6d36-405a-ab60-de89287f811b",
+    "progress": "Rejected",
+    "errorCode": "INVALID_MESSAGE_NODE",
+    "errors": [
+        {
+            "id": "INVALID_MESSAGE_NODE",
+            "description": "Found business message node not using declared document identification type 'Invoice'"
+        }
+    ],
+    "code": 400
+}

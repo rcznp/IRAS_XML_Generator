@@ -2,10 +2,10 @@
     "message": "Acknowledged.",
     "success": true,
     "version": "1.0",
-    "correlationId": "62330efa-8312-45ae-bc17-62aae4de5f3d",
-    "acknowledgementId": "240802-62330efa-8312-45ae-bc17-62aae4de5f3d-s001",
+    "correlationId": "8ef28cd6-a08e-4b23-a708-b7268999225e",
+    "acknowledgementId": "240803-8ef28cd6-a08e-4b23-a708-b7268999225e-s001",
     "senderId": "EYSIT1011",
-    "transmissionId": "111AUG-11aa-11aa-1a10-73846",
+    "transmissionId": "111AUG-11aa-11aa-1a10-213505",
     "received": 1,
     "progress": "ProcessingQueue",
     "code": 200

@@ -1,18 +1,4 @@
 {
-    "message": "Failed at least one business validation rules",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "4e6edee6-db5a-411c-845c-ebca2580dac7",
-    "senderId": "EYSIT1011",
-    "transmissionId": "111AUG-11aa-11aa-1a10-73947",
-    "received": 1,
-    "progress": "Rejected",
-    "errorCode": "IRASC5-061",
-    "errors": [
-        {
-            "id": "IRASC5-061",
-            "description": "[IRASC5-061]-An Invoice Line (IBG-25) MUST have an Invoiced quantity unit of measure code (IBT-130)."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 16 seconds."
 }

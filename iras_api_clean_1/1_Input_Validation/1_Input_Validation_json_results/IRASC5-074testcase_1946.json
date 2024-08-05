@@ -1,15 +1,4 @@
 {
-    "message": "Error found while validating XML schema",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "9a016237-cfb9-4468-9e95-5c257d206446",
-    "progress": "Rejected",
-    "errorCode": "XSD_SCHEMA_ERROR",
-    "errors": [
-        {
-            "id": "XSD_SCHEMA_ERROR",
-            "description": "Unable to render XML object at Line 81, Position 37 : The 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2:IssueDate' element is invalid - The value '2024-05-02 00:00:00' is invalid according to its datatype 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2:IssueDateType' - The string '2024-05-02 00:00:00' is not a valid Date value."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 8 seconds."
 }

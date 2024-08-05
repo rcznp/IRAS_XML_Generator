@@ -1,15 +1,4 @@
 {
-    "message": "Error found while validating XML schema",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "ac6b2fb0-abda-4247-84ac-89db9977fe66",
-    "progress": "Rejected",
-    "errorCode": "XSD_SCHEMA_ERROR",
-    "errors": [
-        {
-            "id": "XSD_SCHEMA_ERROR",
-            "description": "Unable to render XML object at Line 16, Position 38 : The 'http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader:CreationDateAndTime' element is invalid - The value 'NA' is invalid according to its datatype 'http://www.w3.org/2001/XMLSchema:dateTime' - The string 'NA' is not a valid DateTime value."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 6 seconds."
 }

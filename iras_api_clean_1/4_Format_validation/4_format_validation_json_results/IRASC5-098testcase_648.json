@@ -1,18 +1,4 @@
 {
-    "message": "Failed at least one business validation rules",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "df909511-ff79-4650-9ff1-5f3a9dc9d049",
-    "senderId": "EYSIT1011",
-    "transmissionId": "111AUG-11aa-11aa-1a10-100732",
-    "received": 1,
-    "progress": "Rejected",
-    "errorCode": "IRASC5-098",
-    "errors": [
-        {
-            "id": "IRASC5-098",
-            "description": "[IRASC5-098]-The Item price discount (IBT-147), if provided, MUST have no more than 2 decimals."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 3 seconds."
 }

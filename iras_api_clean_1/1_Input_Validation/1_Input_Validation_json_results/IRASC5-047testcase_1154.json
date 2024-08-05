@@ -1,18 +1,4 @@
 {
-    "message": "Failed at least one business validation rules",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "b23d67c9-3031-4ef2-ab7e-bd47f98c5af0",
-    "senderId": "EYSIT1011",
-    "transmissionId": "111AUG-11aa-11aa-1a10-72907",
-    "received": 1,
-    "progress": "Rejected",
-    "errorCode": "IRASC5-047",
-    "errors": [
-        {
-            "id": "IRASC5-047",
-            "description": "[IRASC5-047]-Each GST Breakdown (IBG-23) MUST have a GST category tax scheme identifier (IBT-118-1) with value 'GST'."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 12 seconds."
 }

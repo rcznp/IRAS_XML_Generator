@@ -1,15 +1,4 @@
 {
-    "message": "Error found while validating XML schema",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "f515edbe-3200-4f46-80f0-1703934ef15f",
-    "progress": "Rejected",
-    "errorCode": "XSD_SCHEMA_ERROR",
-    "errors": [
-        {
-            "id": "XSD_SCHEMA_ERROR",
-            "description": "Unable to render XML object at Line 287, Position 4 : The element 'LegalMonetaryTotal' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2' has incomplete content. List of possible elements expected: 'PayableAmount' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 2 seconds."
 }

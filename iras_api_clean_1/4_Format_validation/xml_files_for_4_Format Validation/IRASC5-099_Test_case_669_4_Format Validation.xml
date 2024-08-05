@@ -11,7 +11,7 @@
     <DocumentIdentification>
       <Standard>urn:oasis:names:specification:ubl:schema:xsd:Invoice-2</Standard>
       <TypeVersion>2.1</TypeVersion>
-      <InstanceIdentifier>111AUG-11aa-11aa-1a10-100848</InstanceIdentifier>
+      <InstanceIdentifier>111AUG-11aa-11aa-1a10-217641</InstanceIdentifier>
       <Type>Invoice</Type>
       <CreationDateAndTime>2024-06-18T17:30:34.744Z</CreationDateAndTime>
     </DocumentIdentification>
@@ -44,8 +44,8 @@ Singapore invoice
 -->
 
 	<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
-	<cbc:CustomizationID>urn:peppol:pint:billing-1@sg-1:LocalTaxInvoice:sg:1.0</cbc:CustomizationID> <!-- BT-24 -->
-	<cbc:ProfileID>urn:peppol:bis:billing</cbc:ProfileID> <!-- BT-23 -->
+	<cbc:CustomizationID>urn:cen.eu:en16931:2017#conformant#urn:fdc:peppol.eu:2017:poacc:billing:international:sg:3.0</cbc:CustomizationID> <!-- BT-24 -->
+	<cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID> <!-- BT-23 -->
 	<cbc:ID>F012345</cbc:ID> <!-- BT-1 -->
 	<cbc:UUID>U-xdCi1rvwCeVA5Tv1uMn4rQR53wNmp0Ih24</cbc:UUID>
 	<cbc:IssueDate>2018-12-01</cbc:IssueDate> <!-- BT-2 -->

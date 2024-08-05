@@ -1,15 +1,4 @@
 {
-    "message": "Error found while validating XML schema",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "f16d16b3-8172-4ca4-b3bf-5bcd5c6cb940",
-    "progress": "Rejected",
-    "errorCode": "XSD_SCHEMA_ERROR",
-    "errors": [
-        {
-            "id": "XSD_SCHEMA_ERROR",
-            "description": "Unable to render XML object at Line 9, Position 3 : The element 'Receiver' in namespace 'http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader' has incomplete content. List of possible elements expected: 'Identifier' in namespace 'http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader'."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 17 seconds."
 }

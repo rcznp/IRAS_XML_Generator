@@ -1,15 +1,4 @@
 {
-    "message": "Error found while validating XML schema",
-    "success": false,
-    "version": "1.0",
-    "correlationId": "56c3bb0b-0b34-4f04-ab4e-fa3ab17f6f32",
-    "progress": "Rejected",
-    "errorCode": "XSD_SCHEMA_ERROR",
-    "errors": [
-        {
-            "id": "XSD_SCHEMA_ERROR",
-            "description": "Unable to render XML object at Line 475, Position 2 : The element 'InvoiceLine' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2' has invalid child element 'InvoicedQuantity' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'. List of possible elements expected before this element: 'ID' in namespace 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'."
-        }
-    ],
-    "code": 400
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 12 seconds."
 }
